@@ -1,0 +1,31 @@
+1. Zavrseno
+2. Zavrseno
+3. Zavrseno
+4. git init
+5. git remote add origin https://github.com/DarkoDimitrov/SI_2023_lab1_213083.git 
+6. git add . / git commit -m "Inital commit"
+7. git add . / git commit -m "Add java class"
+8. git push -all 
+9. git branch bug1/2/3
+10. git checkout bug1
+11. git commit -a -m "Fix wrong loop for reading"
+    git push --all
+12. git checkout bug2
+13. git commit -a -m "Fix wrong condition in filterOddNumbers"
+    git push --all
+14. git checkout bug3
+15. git commit -a -m "Fix method sumEvenNumbers"
+16. git push --all 
+17. git checkout master
+18. git merge bug1-fast forwarding, nema konflikt
+19. git push --all 
+20. git merge bug2-recursive(orc), nema konflikt
+21. git push --all 
+22. git checkout bug3
+23. git rebase master
+24. git checkout master
+25. git merge bug3-recursive(orc), nema konflikt
+26. git push --all --force 
+27. git add . / git commit -m "Final commit"
+28. git push --all 
+
